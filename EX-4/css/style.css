@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #cc9508d7, rgb(255, 255, 255));
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    
+  text-align: center;
+}
+
+.titulo {
+  position: absolute;
+  /* background-color: red; */
+  font-size: clamp(1px,5vw,18px);
+  padding-bottom: 10%;
+
+  top: 3%;
+  width: 72%;
+}
+
+.imagem {
+  width: 100%;
+}
+
+.inputField {
+  position: relative;
+  background-color: rgb(189, 189, 189);
+  box-shadow: -3px 3px 10px rgb(14, 14, 14);
+
+  transform: translate(80%, 10%);
+
+  padding: 5%;
+  margin-top:2%;
+  width: 25%;
+}
+
+input{
+  text-align: left;
+  width: 98%;
+  outline-style: solid;
+  outline-width: 1px;
+  font-size: clamp(8px,5vw,18px);
+}
+
+.num {
+  text-align: center;
+  display: block;
+  font-size: clamp(8px,5vw,18px);
+}
+
+.resultBox {
+  padding: 15%;
+}
+
+
+.result {
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: clamp(8px,5vw,18px);
+}
+
+.inputR{
+  text-align: left;
+  width: 98%;
+  outline-style: solid;
+  outline-width: 1px;
+  font-size: clamp(8px,2vw,16px);
+}
+
+.submit {
+  width: 100%;
+  padding: 3%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: clamp(8px,5vw,14px);
+  
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: white;
+
+  color: black;
+  background-color: transparent;
+
+  transition: all 0.15s;
+}
+
+.submit:hover {
+  background-color: #ffffff25;
+}
+
+.submit:active {
+  background-color: #ffffffbc;
+  outline-style: solid;
+  outline-width: 2px;
+}
