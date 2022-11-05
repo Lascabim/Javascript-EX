@@ -5,17 +5,18 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #515151f2, rgb(255, 255, 255));
+  background: linear-gradient(to bottom, #000000f2, rgb(255, 255, 255));
   background-repeat: no-repeat;
   background-size: 100% 100%;
-    
   text-align: center;
 }
 
 .inputField {
   position: relative;
-  background-color: #ff8c00;
-  box-shadow: -3px 3px 10px rgb(14, 14, 14);
+  background: linear-gradient(to bottom, #838383f2, rgb(255, 255, 255));
+
+  /* box-shadow: -3px 3px 10px rgb(14, 14, 14); */
+  box-shadow: 0px 0px 10px rgb(14, 14, 14);
 
   transform: translate(80%, 10%);
 

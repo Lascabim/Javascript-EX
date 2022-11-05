@@ -10,7 +10,7 @@
   <body>
     <main>
       <div class="trabalho">
-        Valor em cm: <input type="text" id="input1" value="0" class="input">
+        <span class="valorCM">Valor em cm:</span> <input type="text" id="input1" value="0" class="input">
 
         <select id="medida" class="medida">
           <option value="ft">Pés</option>
@@ -18,9 +18,11 @@
         </select>
 
         <button class="botao" onclick="Convert()">Converter</button>
+
+        <div class="resultado" id="resultado">
+
       </div>
 
-      <div class="resultado" id="resultado">
 
       </div>
     </main>

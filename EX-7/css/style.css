@@ -9,10 +9,21 @@ body {
 }
 
 main {
+  margin-top: 20%;
   display: inline-block;
   position: relative;
 
-  background-color: red;
+  padding: 5%;
+  box-shadow: 5px 5px 5px gray;
+  background: linear-gradient(to bottom, #000000d7, rgb(255, 255, 255));
+}
 
-  padding: 10%;
+.resultado{
+  margin-top: 20%;
+  box-shadow: 0 0 10px gray;
+}
+
+.valorCM{
+  color: white;
+  text-shadow: 2px 1px black;
 }
