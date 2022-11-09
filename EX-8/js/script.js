@@ -17,10 +17,11 @@ function SearchP()
         }
       } else {
         var numDiv = 0;
-        for(i=1; i < 100 ;i++)
+        for(i=1; i < 10000000000 ;i++)
         {
-          // console.log(num + "/" + i + "=" + (num % i));
-          if(i <= num)
+          console.log(num + "/" + i + "=" + (num % i));
+          
+          if(i <= num && numDiv <= 2)
           {
             if((num % i) == 0)
             {
